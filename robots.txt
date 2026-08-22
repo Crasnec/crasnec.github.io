@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crasnec.github.io/sitemap-index.xml
