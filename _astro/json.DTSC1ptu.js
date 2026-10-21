@@ -1,0 +1,1 @@
+function e(e){return JSON.parse(e)}var t=e=>typeof e==`object`&&!!e&&!Array.isArray(e);export{e as n,t};
