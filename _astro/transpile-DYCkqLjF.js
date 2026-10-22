@@ -1,3 +1,0 @@
-import{n as e,t}from"./typescript-Z_hqnLqt.js";var n=/* @__PURE__ */ e(t(),1);function r(e){let t=n.default.transpileModule(e,{fileName:`playground.ts`,reportDiagnostics:!0,compilerOptions:{target:n.default.ScriptTarget.ES2022,module:n.default.ModuleKind.ESNext,verbatimModuleSyntax:!0}}),r=t.diagnostics?.filter(e=>e.category===n.default.DiagnosticCategory.Error)??[];if(r.length)throw SyntaxError(r.map(e=>{let t=e.file?.getLineAndCharacterOfPosition(e.start??0);return`${t?`${String(t.line+1)}:${String(t.character+1)}: `:``}${n.default.flattenDiagnosticMessageText(e.messageText,`
-`)}`}).join(`
-`));return t.outputText}export{r as transpileTypeScript};
